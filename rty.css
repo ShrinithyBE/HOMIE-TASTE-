@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg)
+}
+.header{
+    background-image: url();
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+    
+    
+}
+ul{
+    float:absolute;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition : 0.5 ease;
+}
+ul li a:hover{
+    background-color:#ffc62b;
+    color:black;
+}
+ul li.active a{
+    background-color: #fb4444;
+    color: black
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height:auto;
+}
+.main{
+    max-width:1200px;
+    margin: auto;
+}
+.title{
+    position:fixed;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+.button{
+    position:absolute;
+    top:55%;
+    left:48%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    border:1px solid #6328b5;
+    padding:5px 20px;
+    color:#fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration:none;
+
+}
+.btn:hover{
+    background-color:hotpink;
+    color:black;
+}
+.sub-menu{
+    display: none;
+    top: 60%;
+    position: relative;
+
+}
+.sub-menu ul{
+    position: absolute;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position:absolute;
+    background-color: rgb(206, 20, 203);
+    margin-top:12px;
+    margin-left:-8px;
+}
+.main ul li:hover .sub-menu ul{
+    display: 60px;
+    margin: 6px;
+}
+.main ul li:hover .sub-menu ul li{
+    width: 80px;
+    padding: 50px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+}
